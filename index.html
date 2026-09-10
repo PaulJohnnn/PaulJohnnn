@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Preview</title>
+    <style>
+        body {
+            background-color: #0d1117; /* GitHub Dark Mode default */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            color: #c9d1d9;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 240, 255, 0.15); /* Soft neon glow behind it */
+        }
+        h1 {
+            color: #fff;
+            margin-bottom: 5px;
+        }
+        p.subtitle {
+            color: #8b949e;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Your New Cyberpunk Profile Preview</h1>
+        <p class="subtitle">This is how your README will dynamically render on GitHub.</p>
+        
+        <!-- Embedding the SVG using an img tag specifically, to test native SVG animations as supported on GitHub -->
+        <img src="animated-hud.svg" alt="Animated Developer HUD">
+    </div>
+</body>
+</html>
