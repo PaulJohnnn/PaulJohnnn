@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <defs>
+    <!-- Background styling -->
+    <style>
+      .bg { fill: #0d1117; } /* matches github dark exactly */
+      .sidebar { fill: #161b22; }
+      .header { fill: #161b22; border-bottom: 1px solid #30363d; }
+      .border { fill: none; stroke: #30363d; stroke-width: 1; }
+      
+      /* Typography */
+      .code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 14px; }
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 12px; fill: #8b949e; }
+      
+      /* Syntax Highlight Colors (One Dark / GitHub Dark) */
+      .keyword { fill: #ff7b72; } /* red */
+      .variable { fill: #79c0ff; } /* blue */
+      .string { fill: #a5d6ff; } /* light blue */
+      .comment { fill: #8b949e; } /* gray */
+      .method { fill: #d2a8ff; } /* purple */
+      .operator { fill: #c9d1d9; } /* text white */
+      
+      /* Typing Animation Classes */
+      .line { opacity: 0; animation: reveal 0.1s forwards; }
+      @keyframes reveal { from { opacity: 0; } to { opacity: 1; } }
+      .cursor { display: inline-block; width: 8px; height: 16px; background-color: #c9d1d9; animation: blink 1s step-end infinite; }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect class="bg" width="900" height="420" rx="6" />
+  <rect class="sidebar" x="0" y="0" width="180" height="420" rx="6" />
+  <rect class="sidebar" x="180" y="0" width="6" height="420" /> <!-- To remove left corner rounding of sidebar bridging -->
+  <rect class="bg" x="180" y="0" width="720" height="420" /> 
+  <rect class="border" width="900" height="420" rx="6" />
+  
+  <!-- Header / Window Controls -->
+  <rect class="header" x="0" y="0" width="900" height="35" rx="6" />
+  <rect class="header" x="0" y="20" width="900" height="15" /> <!-- remove bottom corner rounding -->
+  
+  <circle cx="20" cy="17" r="6" fill="#ff5f56" />
+  <circle cx="40" cy="17" r="6" fill="#ffbd2e" />
+  <circle cx="60" cy="17" r="6" fill="#27c93f" />
+  
+  <text x="450" y="22" class="title" text-anchor="middle">PaulJohnnn - Visual Studio Code</text>
+
+  <!-- Sidebar File Explorer -->
+  <text x="15" y="60" class="title" font-weight="bold" fill="#c9d1d9">EXPLORER</text>
+  <text x="15" y="85" class="title">❯ PaulJohnnn</text>
+  <text x="30" y="110" class="title" fill="#c9d1d9">≡ README.md</text>
+  <text x="30" y="130" class="title" fill="#79c0ff">{} about.json</text>
+  <text x="30" y="150" class="title" fill="#d2a8ff">TS profile.ts</text>
+  
+  <!-- Main Editor Tab -->
+  <rect x="180" y="35" width="140" height="30" fill="#0d1117" />
+  <rect x="180" y="35" width="1" height="30" fill="#30363d" />
+  <rect x="320" y="35" width="1" height="30" fill="#30363d" />
+  <text x="210" y="55" class="title" fill="#c9d1d9">profile.ts</text>
+  
+  <rect x="180" y="65" width="720" height="1" fill="#30363d" />
+  
+  <!-- Line Numbers -->
+  <g class="title" text-anchor="end" transform="translate(210, 0)">
+    <text y="90">1</text>
+    <text y="110">2</text>
+    <text y="130">3</text>
+    <text y="150">4</text>
+    <text y="170">5</text>
+    <text y="190">6</text>
+    <text y="210">7</text>
+    <text y="230">8</text>
+    <text y="250">9</text>
+    <text y="270">10</text>
+    <text y="290">11</text>
+    <text y="310">12</text>
+    <text y="330">13</text>
+    <text y="350">14</text>
+    <text y="370">15</text>
+  </g>
+
+  <!-- Code Content -->
+  <g class="code" transform="translate(230, 0)">
+    
+    <text y="90" class="comment">// Welcome to my GitHub Profile!</text>
+
+    <!-- Code Block -->
+    <text y="130" class="line" style="animation-delay: 0.2s;">
+        <tspan class="keyword">const</tspan> <tspan class="variable">developer</tspan> <tspan class="operator">=</tspan> <tspan class="operator">{</tspan>
+    </text>
+    
+    <text y="150" class="line" style="animation-delay: 0.6s;">
+        <tspan class="operator">   </tspan><tspan class="keyword">name</tspan><tspan class="operator">:</tspan> <tspan class="string">'Paul John Palamara'</tspan><tspan class="operator">,</tspan>
+    </text>
+
+    <text y="170" class="line" style="animation-delay: 1.0s;">
+        <tspan class="operator">   </tspan><tspan class="keyword">role</tspan><tspan class="operator">:</tspan> <tspan class="string">'Software Engineer'</tspan><tspan class="operator">,</tspan>
+    </text>
+    
+    <text y="190" class="line" style="animation-delay: 1.4s;">
+        <tspan class="operator">   </tspan><tspan class="keyword">location</tspan><tspan class="operator">:</tspan> <tspan class="string">'Earth'</tspan><tspan class="operator">,</tspan>
+    </text>
+
+    <text y="210" class="line" style="animation-delay: 1.8s;">
+        <tspan class="operator">   </tspan><tspan class="method">skills</tspan><tspan class="operator">: [</tspan><tspan class="string">'React'</tspan><tspan class="operator">, </tspan><tspan class="string">'TypeScript'</tspan><tspan class="operator">, </tspan><tspan class="string">'Node.js'</tspan><tspan class="operator">, </tspan><tspan class="string">'Python'</tspan><tspan class="operator">],</tspan>
+    </text>
+
+    <text y="230" class="line" style="animation-delay: 2.2s;">
+        <tspan class="operator">   </tspan><tspan class="method">passions</tspan><tspan class="operator">: [</tspan><tspan class="string">'Modern UI/UX'</tspan><tspan class="operator">, </tspan><tspan class="string">'Web Architecture'</tspan><tspan class="operator">]</tspan>
+    </text>
+
+    <text y="250" class="line" style="animation-delay: 2.6s;">
+        <tspan class="operator">};</tspan>
+    </text>
+
+    <!-- Function block -->
+    <text y="290" class="line" style="animation-delay: 3.0s;">
+        <tspan class="keyword">function</tspan> <tspan class="method">buildFuture</tspan><tspan class="operator">() {</tspan>
+    </text>
+    
+    <text y="310" class="line" style="animation-delay: 3.4s;">
+        <tspan class="operator">   </tspan><tspan class="variable">console</tspan><tspan class="operator">.</tspan><tspan class="method">log</tspan><tspan class="operator">(</tspan><tspan class="string">`Designing clean, minimal &amp; scalable applications...`</tspan><tspan class="operator">);</tspan>
+    </text>
+
+    <text y="330" class="line" style="animation-delay: 3.8s;">
+        <tspan class="operator">   </tspan><tspan class="keyword">return</tspan> <tspan class="operator">true;</tspan>
+    </text>
+    
+    <text y="350" class="line" style="animation-delay: 4.2s;">
+        <tspan class="operator">}</tspan>
+    </text>
+
+    <text y="370" class="line" style="animation-delay: 4.6s;">
+      <tspan class="operator">_</tspan>
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+    </text>
+
+  </g>
+</svg>

@@ -1,21 +1,37 @@
-# Hi there 👋, I'm Paul John!
+# 👋 Hi, I'm Paul John
 
-Welcome to my corner of GitHub. I'm a passionate developer building the future of the web.
+<div align="center">
+  <img src="./vscode-profile.svg" alt="VS Code Profile">
+</div>
 
+<br />
+
+### 🚀 About Me
 <p align="center">
   <a href="https://github.com/PaulJohnnn">
-    <img src="./animated-hud.svg" alt="Paul John's Cyberpunk Profile" width="100%">
+    <!-- Typing SVG replaces static text for maximum modern aesthetic -->
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=79C0FF&center=true&vCenter=true&width=535&lines=Building+modern+web+applications.;Crafting+clean+and+scalable+architectures.;Turning+ideas+into+realities." alt="Typing SVG" />
   </a>
 </p>
 
-## 🚀 About Me
-- 🔭 I’m currently working on building awesome web experiences and robust architectures.
-- 🌱 I’m currently learning deeper full-stack development and modern aesthetic designs.
-- 🎨 I love creating stunning UI/UX designs and fully optimizing my code.
+### 🛠️ Languages and Tools
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,html,css,python,git,vscode&perline=10" />
+</p>
 
-## ⚡ Quick Stats
-_Feel free to add your own GitHub stats widgets here!_
+<br />
 
-## 🔗 Connect with me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/) 
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/) 
+### 📈 GitHub Stats
+<p align="center">
+  <a href="https://github.com/PaulJohnnn">
+    <img src="https://github-readme-stats.vercel.app/api?username=PaulJohnnn&show_icons=true&theme=transparent&hide_border=true&title_color=79C0FF&icon_color=79C0FF&text_color=c9d1d9" alt="GitHub Stats" />
+  </a>
+  <a href="https://github.com/PaulJohnnn">
+    <img height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PaulJohnnn&layout=compact&theme=transparent&hide_border=true&title_color=79C0FF&text_color=c9d1d9" alt="Top Languages" />
+  </a>
+</p>
+
+<div align="center">
+  <br />
+  <em>Looking for my next development adventure!</em>
+</div>
