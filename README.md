@@ -9,14 +9,13 @@
 ### 🚀 About Me
 <p align="center">
   <a href="https://github.com/PaulJohnnn">
-    <!-- Typing SVG replaces static text for maximum modern aesthetic -->
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=79C0FF&center=true&vCenter=true&width=535&lines=Building+modern+web+applications.;Crafting+clean+and+scalable+architectures.;Turning+ideas+into+realities." alt="Typing SVG" />
   </a>
 </p>
 
-### 🛠️ Languages and Tools
+### 🛠️ Languages, Frameworks, and Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,html,css,python,git,vscode&perline=10" />
+  <img src="https://skillicons.dev/icons?i=js,ts,python,java,php,html,css,mysql,react,nextjs,tailwind,prisma,git,github,docker,postgres,dynamodb,vercel,supabase&perline=10" />
 </p>
 
 <br />
